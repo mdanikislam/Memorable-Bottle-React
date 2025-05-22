@@ -1,0 +1,28 @@
+.bottle-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+    border-radius: 20px;
+    padding: 25px 15px;
+    
+}
+
+.ratings{
+    display: flex;
+   gap: 30px;
+}
+
+.bottle-img{
+    width: 200px;
+    border-radius: 20px;
+}
+
+span{
+    color: rgb(88, 144, 163);
+    font-weight:700;
+}
+
+button{
+    background-color: rgb(88, 144, 163);
+}

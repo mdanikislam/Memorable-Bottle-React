@@ -10,7 +10,8 @@ const Bottles = () => {
         .then(res=>res.json())
         .then(data=>setBottles(data))
     },[])
-
+    
+    // handle cart 
     const handleBottleCart = bottle=>{
         const newCart = [...cart, bottle]
         setCart(newCart);

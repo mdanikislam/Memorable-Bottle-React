@@ -1,18 +1,12 @@
-.bottles-container{
-    display: grid;
-    grid-template-columns: repeat(4,1fr);
-    gap: 30px;
-
+.bottles-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
 }
 
-@media screen and(max-width:576px) {
-    
+@media screen and (max-width:576px) {
     .bottles-container{
         display: grid;
         grid-template-columns: repeat(1,1fr);
-    }
-    .bottle{
-        color:  rgb(88, 144, 163);
-        font-size: small;
     }
 }
